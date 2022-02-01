@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    height: 300px;
+}
+
+.Product-container {
+    position: absolute;
+    top: 35px;
+    left: 420px;
+}
+
+#zoom-img {
+    position: relative;
+    display: none;
+}
+
+.close-btn {
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    display: none;
+    top: 25px;
+    right: 470px;
+}
+
+.zoom-in {
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    display: none;
+    top: 25px;
+    left: 448px;
+}
+
+.zoom-out {
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    display: none;
+    top: 62px;
+    left: 450px;
+}
+
+button {
+    background: none;
+    border: none;
+}
